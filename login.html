@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Login Form</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  
+  <form  class="login-form" method="POST" action="login.php"> 
+    <h1 class="login-title">Login</h1>
+
+    <div class="input-box">
+      <i class='bx bx-envelope'></i>
+      <input type="email" placeholder="Email" id="email" name="email" required >
+    </div>
+    <div class="input-box">
+      <i class='bx bxs-lock-alt' ></i>
+      <input type="password" placeholder="Password" id="pass" name="password" required>
+    </div>  
+  
+    <div class="remember-forgot-box">
+      <label for="remember">
+        <input type="checkbox" id="remember">
+        Remember Me
+      </label>
+    </div>
+  <input type="submit"  class="login-btn" value="submit">
+    <p class="register">
+      Don't have an account?
+      <a href="signup.html">New User</a>
+    </p>  
+  </form>
+
+</body>
+
+</html>
